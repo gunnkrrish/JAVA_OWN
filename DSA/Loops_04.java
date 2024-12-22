@@ -1,3 +1,4 @@
+package DSA;
 //SUM OF FIRST n NATUAL NUMBERS
 import java.util.Scanner;
 

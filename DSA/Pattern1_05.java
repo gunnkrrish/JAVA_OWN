@@ -1,3 +1,4 @@
+package DSA;
 //HOLLOW RECTANGLE
 public class Pattern1_05 {
     public static void main(String[] args) {

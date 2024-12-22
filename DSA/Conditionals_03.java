@@ -1,3 +1,4 @@
+package DSA;
 //QUES: CHECK ADULT OR NOT
 
 // import java.util.Scanner;

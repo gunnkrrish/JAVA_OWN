@@ -1,3 +1,4 @@
+package DSA;
 public class Pattern7_05 {
     public static void main(String[] args) {
         int n=1;

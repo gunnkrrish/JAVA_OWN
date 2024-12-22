@@ -1,3 +1,4 @@
+package DSA;
 public class Variables_02 {
     public static void main(String[] args){
         String name ="tony stark";

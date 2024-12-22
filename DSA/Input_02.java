@@ -1,3 +1,4 @@
+package DSA;
 import java.util.Scanner;
 public class Input_02 {
     public static void main(String[] args){
