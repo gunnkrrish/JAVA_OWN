@@ -12,3 +12,4 @@ public class Function_07 {
         printMyName(name);
     }
 }
+//functions only pass by value
