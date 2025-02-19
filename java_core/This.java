@@ -15,7 +15,7 @@
 // package java_core;
 
 // public class This {
-//     int a,b;
+//     int a,b; //instance var
 //     This(){
 //          a = 10;
 //           b = 20;
