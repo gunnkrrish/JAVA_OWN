@@ -73,17 +73,17 @@
 
 //PRIVATE CONSTRUCTOR
 
-package java_core;
-class Constructors {
-    int a;
-    double b; 
+// package java_core;
+// class Constructors {
+//     int a;
+//     double b; 
    
-    private Constructors(){
-       a = 10;
-       b = 20.56;
-       System.out.println(a+" "+b);
-    } 
-    public static void main(String[] args) {
-        Constructors r = new Constructors();
-    }
-}
+//     private Constructors(){
+//        a = 10;
+//        b = 20.56;
+//        System.out.println(a+" "+b);
+//     } 
+//     public static void main(String[] args) {
+//         Constructors r = new Constructors();
+//     }
+// }
