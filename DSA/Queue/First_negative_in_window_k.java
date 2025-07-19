@@ -28,3 +28,39 @@ public class First_negative_in_window_k {
         }
     }
 }
+
+
+
+
+//*************************************************
+// public class FirstNegativeNoQueue {
+//     public static long[] print_First(long[] A, int N, int k) {
+//         long[] res = new long[N - k + 1];
+
+//         for (int i = 0; i <= N - k; i++) {
+//             boolean found = false;
+
+//             for (int j = i; j < i + k; j++) {
+//                 if (A[j] < 0) {
+//                     res[i] = A[j];
+//                     found = true;
+//                     break;
+//                 }
+//             }
+
+//             if (!found) res[i] = 0;
+//         }
+
+//         return res;
+//     }
+
+//     public static void main(String[] args) {
+//         long[] arr = {12, -1, -7, 8, -15, 30, 16, 28};
+//         int k = 3;
+//         long[] result = print_First(arr, arr.length, k);
+
+//         for (long val : result) {
+//             System.out.print(val + " ");
+//         }
+//     }
+// }

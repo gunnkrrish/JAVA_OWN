@@ -16,7 +16,7 @@ public class leetcode_509 {
         }
         else{
             int next=0;
-            for(int i=2;i<=n;i++){
+            for(int i=3;i<=n;i++){
                 next = first+ second;
                 first = second;
                 second = next;

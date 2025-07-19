@@ -18,7 +18,8 @@ public class array_10 {
  * array object are in heap
  * heap objects are not continuius
  * dynamic memory allocation
- * hence array object in java may not be continuous as it depends on jvm
+ *  In Java, arrays are always contiguous in memory — they store elements in a single continuous block, even in the heap.
+🔹 But if it's an array of objects, only the references are contiguous — actual object locations may not be.
  internally store 0 by default in array
  internally store null by default in string
  array are mutuable pr strings are immutable

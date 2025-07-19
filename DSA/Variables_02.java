@@ -11,3 +11,4 @@ public class Variables_02 {
         System.out.println(diff);
     }
 }
+

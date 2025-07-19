@@ -1,6 +1,6 @@
 
 
-import java_core.cwh.packages;
+import java_core.packages;
 
 public class packages_using {
     public static void main(String[] args) {

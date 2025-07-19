@@ -1,4 +1,4 @@
-package java_core.cwh;
+package java_core;
 
 public class packages {
     public static void main(String[] args) {

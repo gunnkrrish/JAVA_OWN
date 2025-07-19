@@ -1,3 +1,4 @@
+package java_core;
 class shape{
     void draw(){
         System.out.println("cant say shape type");

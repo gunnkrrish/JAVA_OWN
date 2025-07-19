@@ -12,46 +12,99 @@ public class Merge_sort {
 
     //USING COPY OF RANGEE****************************************************
     static int[] mergeSort(int[] arr){
-        if(arr.length ==1){
-            return arr;
-        }
+        if(arr.length ==1) return arr;
         int mid = arr.length/2;
-        int[] left = mergeSort(Arrays.copyOfRange(arr, 0, mid));
-        int[] right = mergeSort(Arrays.copyOfRange(arr, mid, arr.length));
-
-        return merge(left,right);
-
-    }  
-    private static int[] merge(int[] first,int[] second){
-        int[] mix = new int[first.length+second.length];
+        int[] a = mergeSort(Arrays.copyOfRange(arr, 0, mid));
+        int[] b = mergeSort(Arrays.copyOfRange(arr, mid, arr.length));
+        return merge(a,b);
+    }
+    static int[] merge(int[] a,int[] b){
+        int[] mix = new int[a.length+b.length];
         int i=0;
         int j=0;
         int k=0;
-
-        while(i<first.length && j<second.length){
-            if(first[i] <second[j]){
-                mix[k] = first[i];
+        while(i<a.length && j<b.length){
+            if(a[i]<b[j]){
+                mix[k] = a[i];
                 i++;
-            }else{
-                mix[k] = second[j];
-                j++;
+                k++;
             }
-            k++;
+            else{
+                mix[k] = b[j];
+                j++;
+                k++;
+            }
         }
-//it may be possible if one of the array is not complete copy remaining
-while(i<first.length){
-    mix[k] = first[i];
-    i++;
-    k++;
-}
-while(j<second.length){
-    mix[k] = second[j];
-    j++;
-    k++;
-}
-return mix;
+        while(i<a.length){
+            mix[k] = a[i]; 
+            k++;
+            i++;
+        } 
+        while(j<b.length){
+            mix[k] = b[j];
+            k++;
+            j++;
+        } 
+        return mix;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//         if(arr.length ==1){
+//             return arr;
+//         }
+//         int mid = arr.length/2;
+//         int[] left = mergeSort(Arrays.copyOfRange(arr, 0, mid));
+//         int[] right = mergeSort(Arrays.copyOfRange(arr, mid, arr.length));
+
+//         return merge(left,right);
+
+//     }  
+//     private static int[] merge(int[] first,int[] second){
+//         int[] mix = new int[first.length+second.length];
+//         int i=0;
+//         int j=0;
+//         int k=0;
+
+//         while(i<first.length && j<second.length){
+//             if(first[i] <second[j]){
+//                 mix[k] = first[i];
+//                 i++;
+//             }else{
+//                 mix[k] = second[j];
+//                 j++;
+//             }
+//             k++;
+//         }
+// //it may be possible if one of the array is not complete copy remaining
+// while(i<first.length){
+//     mix[k] = first[i];
+//     i++;
+//     k++;
+// }
+// while(j<second.length){
+//     mix[k] = second[j];
+//     j++;
+//     k++;
+// }
+// return mix;
+//     }
+// }
 
 
 

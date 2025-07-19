@@ -39,8 +39,8 @@ public class Constructors_inh {
         System.out.println("Main method started");
         //base b = new base();
         //derived d = new derived(); 
-        //derived d = new derived(14,5); 
-        child c = new child(12,13,14);
+        derived d = new derived(14,5); 
+        //child c = new child(12,13,14);
         System.out.println("Main method ended");
     }
 }

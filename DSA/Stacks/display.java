@@ -40,10 +40,10 @@ public class display {
         st.push(90);
         st.push(5);
         st.push(15);
-       // displayrec(st);
+        //displayrevrec(st);
 
        reverse(st);
-       System.out.print(st);
+       //System.out.print(st);
 
          //System.out.println(st);
 

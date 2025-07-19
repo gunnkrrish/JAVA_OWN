@@ -1,5 +1,5 @@
 package DSA;
-// o(1) o(n) o(log n) o (n log n) o(n^2) o (2^n) o(n!)
+// o(1) o(log n) o(n)  o (n log n) o(n^2) o (2^n) o(n!)
 public class BS_rotation {
     public static void main(String[] args) {
         //count how many tyms arra is rotated

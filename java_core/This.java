@@ -61,23 +61,23 @@
 
 //call parametrized constructor using default constructor
 
-package java_core;
+// package java_core;
 
-public class This {
+// public class This {
     
-    This(){
-        this(10);
-        System.out.println("ohh");
-        //this(10);//it must be declared above any statement
-    }
-    This(int a){
+//     This(){
+//         this(10);
+//         System.out.println("ohh");
+//         //this(10);//it must be declared above any statement
+//     }
+//     This(int a){
        
-        System.out.println(a);
-    }
+//         System.out.println(a);
+//     }
    
-    public static void main(String[] args) {
+//     public static void main(String[] args) {
     
-    This r2 = new This();
+//     This r2 = new This();
     
-    }
-}
+//     }
+// }

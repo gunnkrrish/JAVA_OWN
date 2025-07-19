@@ -24,11 +24,11 @@ public class Compare_arrays {
         // }
 
 
-        if(Arrays.equals(a,a2)){
-            System.out.print("equals");
-        }
-        else{
-            System.out.print("not equal");
-        }
+        // if(Arrays.equals(a,a2)){
+        //     System.out.print("equals");
+        // }
+        // else{
+        //     System.out.print("not equal");
+        // }
     }
 }
