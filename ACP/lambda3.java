@@ -14,7 +14,7 @@ public class lambda3 {
     public static void main(String[] args) {
         // Innerlambda3 obj = new ola();
         Innerlambda3 obj = (source,destination)->{System.out.println("Ola cab is booked "+source+" to "+destination);
-        return ("Price: 5000 rs");
+        return "Price: 5000 rs";
     };
 
         System.out.println(obj.bookcab("panipat","delhi"));
